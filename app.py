@@ -15,7 +15,7 @@ dominios = {
 def read_root(dominio: str):
     tipo = dominios[dominio]
     if tipo == "nuevo":
-        pass
+        # Implementar redirect para usuario final
     return HTMLResponse("Aplication Python FastAPI <a href='/set-theme'>Set cookie</a>")
 
 
